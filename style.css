@@ -1,0 +1,465 @@
+
+/* Nav Elements */
+
+#Nav-bar {
+    height: 75px;
+    position: sticky;
+    top: 0px;
+
+}
+
+/* #Nav-bar img {
+    width: 0;
+    height: 0;
+    border-top: 100px white hidden;
+    border-right: 100px solid transparent;
+} */
+
+#triangle-topleft{
+    width: 0;
+    height: 0;
+    border-top: 100px #acfc84 solid;
+    border-right: 100px solid transparent;
+  }
+
+  #resTopLink {
+    text-decoration: none;
+    background-color: #acfc84;
+    cursor: pointer;
+  }
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #acfc84;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #061620;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: monospace;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+  /* Full Page elements */
+
+body {
+    background-color:#1d1d20;
+}
+
+/* Intro */
+
+#intro {
+    margin-left: 25%;
+    margin-right: 25%;
+    animation-duration: 2s;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+}
+
+#intro h1{
+    font-size: 48px;
+    color:#acfc84;
+}
+
+#intro p{
+    font-size: 30px;
+    color: white;
+}
+
+/* /* pagebreaks */
+/* 
+#pagebreak {
+height: 500px;
+margin-top: 3rem;
+margin-bottom: 3rem;
+} */
+
+/* about Me */
+
+#aboutMe {
+    margin-left: 25%;
+    margin-right: 25%;
+    animation-duration: 2s;
+    min-height: 100vh;
+    animation-delay: 1ms;
+    
+}
+
+#aboutRight img {
+    height: 500px;
+    box-shadow: 0px 10px 16px 0px #acfc84;
+}
+
+#aboutLeft h2 {
+    font-size: 28px;
+    color:  #acfc84;
+}
+
+#aboutLeft p{
+    font-size: 24px;
+    color: #f1f1f1;
+
+}
+
+.techList {
+    font-size: 24px;
+    color: #acfc84;
+}
+
+
+
+/* Experience Panels */
+
+#exp {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10rem;
+    animation-duration: 2s; 
+    min-height: 100vh;
+}
+
+#exp h2 {
+    padding-top: 10rem;
+    font-size: 28px;
+    color: #acfc84;
+}
+
+/* #job-tab {
+    position: fixed;
+
+} */
+
+#job-tab button {
+    border: 0px transparent solid;
+    position: static;
+    cursor: pointer;
+}
+
+
+#tab-1, #tab-2, #tab-3{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    color: #f1f1f1;
+    background-color: #1d1d20;
+}
+
+#panel-1 h3{
+    padding-top: 5rem;
+    font-size: 26px;
+    color: #acfc84;
+    padding-bottom: 2.5rem;
+}
+
+#panel-2 h3{
+    padding-top: 5rem;
+    font-size: 26px;
+    color: #acfc84;
+    padding-bottom: 2.5rem;
+}
+
+#panel-3 h3{
+    padding-top: 5rem;
+    font-size: 26px;
+    color: #acfc84;
+    padding-bottom: 2.5rem;
+}
+
+.dates {
+    font-size: 18px;
+    color: #f1f1f1;
+    padding-bottom: 1.5rem;
+}
+
+.job-list{
+    font-size: 22px;
+    color: #ccd6f6ff;
+}
+
+.job-list li{
+    padding-bottom: 1.5rem;
+    padding-right: 7rem;
+}
+
+#panel-1, #panel-2, #panel-3{
+    animation-duration: 2s;
+}
+
+
+#expImgs img{
+    height: 300px;
+    width: 400px;
+    animation-duration: 2s;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+
+
+/* Project section */
+
+#projects {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10rem;
+    animation-duration: 2s;
+    animation-delay: 1ms;
+    padding-bottom: 10rem;
+    min-height: 100vh;
+}
+
+#projects h3{
+    padding-top: 10rem;
+    font-size: 28px;
+    color: #acfc84;
+}
+
+#pro-content p{
+    color: white;
+    border: 2px #f1f1f1 solid;
+    font-size: 20px;
+}
+
+/* #pro-content img{
+    padding-left: 7rem;
+} */
+
+
+/* Contact Me */
+
+#foot-top h3 {
+    color: white;
+    font-size: 28px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#foot-top img{
+    height: 50px;
+    width: 50px;
+    margin-left: 4rem;
+    border-radius: 50%;
+}
+
+#footer hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px white solid;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.contact-container {
+  box-sizing: border-box;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color:#acfc84 ;
+
+  width: 400px;
+
+  /* NORMAL */
+  --fc-normal-filed-bg-color: #F7F9FC;
+  --fc-border-color: #ECEFF9;
+  --fc-normal-text-color: #0E0B3D;
+  --fc-normal-placeholder-color: #B3B8D0;
+
+  /* PRIMARY COLOR | HSL FORMAT*/
+  --fc-primary-color-hue: 123;
+  --fc-error-color-hue: 356;
+  --fc-primary-hsl: var(--fc-primary-color-hue), 65%, 51%;
+  --fc-error-hsl: var(--fc-error-color-hue), 100%, 54%;
+
+  /* HOVER */
+  --fc-field-hover-bg-color: #FFFFFF;
+  --fc-border-hover-color: #DDE0EE;
+  --fc-field-hover-text-color: #B3B8D0;
+
+  --fc-border-active-color: #1463FF;
+}
+
+.contact-container * {
+  box-sizing: border-box;
+}
+
+.contact-container label {
+  display: block;
+  cursor: pointer;
+}
+
+.contact-container .formcarry-block:not(:first-child) {
+  margin-top: 16px;
+}
+
+/*=============================================
+=            Fields           =
+=============================================*/
+
+.contact-container input,
+.contact-container textarea,
+.contact-container select {
+  margin-top: 4px;
+  width: 100%;
+  height: 42px;
+  border: 1px solid var(--fc-border-color);
+  box-shadow: 0 1px 2px var(--fc-border-color);
+  color: var(--fc-normal-text-color);
+  background-color: var(--fc-normal-filed-bg-color);
+  border-radius: 10px;
+  padding: 8px 12px;
+  
+  font-family: "Inter", sans-serif;
+  font-size:14px;
+  transition: 125ms background, 125ms color, 125ms box-shadow;
+}
+
+.contact-container textarea{
+  min-height: 188px;
+  max-width: 100%;
+  padding-top: 12px;
+}
+
+.contact-container input::placeholder,
+.contact-container textarea::placeholder,
+.contact-container select::placeholder {
+  color: var(--fc-normal-placeholder-color);
+}
+
+.contact-container input:hover,
+.contact-container textarea:hover,
+.contact-container select:hover {
+  border-color: var(--fc-border-hover-color);
+  background-color: var(--fc-field-hover-bg-color);
+}
+
+.contact-container input:hover::placeholder,
+.contact-container textarea:hover::placeholder,
+.contact-container select:hover::placeholder {
+  color: var(--fc-field-hover-text-color);
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus,
+.contact-container select:focus {
+  background-color: #fff;
+  border: 2px solid hsl(var(--fc-primary-hsl));
+  box-shadow: 0px 1px 6px hsla(var(--fc-primary-hsl), 17%), 0px 2px 0px hsla(var(--fc-primary-hsl), 14%);
+  outline: none;
+}
+
+.contact-container input:focus,
+.contact-container select:focus {
+  padding: 8px 11px;
+}
+
+.contact-container textarea:focus {
+  padding: 11px;
+}
+
+.contact-container select {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.9997 14.5001L8.46387 10.9642L9.64303 9.78589L11.9997 12.1434L14.3564 9.78589L15.5355 10.9642L11.9997 14.5001Z' fill='%236C6F93'/%3E%3C/svg%3E%0A");
+  background-size: 24px 24px;
+  background-position: 98%;
+  background-repeat: no-repeat;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.contact-container button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  height: 40px;
+  line-height: 24px;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%), hsla(var(--fc-primary-hsl));
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px -2px hsla(var(--fc-primary-hsl), 64%), inset 0px -2px 4px rgba(255, 255, 255, 0.16);
+  
+  transition: 125ms all;
+}
+
+.contact-container button:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), hsla(var(--fc-primary-hsl));
+}
+
+.contact-container button:focus {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), hsla(var(--fc-primary-hsl));
+  border-inline: 1px solid inline rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 0px 3px rgba(var(--fc-primary-hsl), 12%);
+}
+
+.contact-container button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), hsla(var(--fc-primary-hsl));
+}
+
+.contact-container button:disabled {
+  background-color: hsla(var(--fc-primary-hsl), 40%);
+  cursor: not-allowed;
+}
+
+.contact-container input:focus:required:invalid,
+.contact-container input:focus:invalid, 
+.contact-container select:focus:required:invalid,
+.contact-container select:focus:invalid
+{
+  color: hsl(var(--fc-error-hsl)); 
+  border-color: hsl(var(--fc-error-hsl));
+  box-shadow: 0px 1px 6px hsla(var(--fc-error-hsl), 17%), 0px 2px 0px hsla(var(--fc-error-hsl), 14%);
+}
+
+
+/* Js Shadow */
+
+.shadow {
+    box-shadow: 0px 10px 10px 0px #acfc84;
+}
